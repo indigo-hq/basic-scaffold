@@ -1,19 +1,20 @@
-.review {
-  padding-bottom: 5px;
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
-.panel-body.review-container {
-  padding-top: 0px;
+
+html, body, .page-content {
+  height: 100%;
 }
 
-.review-header {
-  margin-bottom: 10px;
+.navbar-fixed-top {
+  margin-bottom: 0;
 }
 
-.reviewAuthor {
-  margin: 0 5px;
-}
-
-.reviewTimestamp {
-  color: #ccc;
+.page-footer {
+  display: block;
+  padding: 20px;
+  clear: both;
 }
