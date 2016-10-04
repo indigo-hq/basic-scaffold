@@ -17,6 +17,7 @@
     "pug": "~2.0.0-beta6",
     "morgan": "~1.7.0",
     "serve-favicon": "~2.3.0",
-    "less": "~2.7.1"
+    "less": "~2.7.1",
+    "bootstrap-material-design": ""
   }
 }
