@@ -11,12 +11,12 @@ html
 
     link(rel='stylesheet', href='/stylesheets/style.css')
     <!-- Bootstrap Material Design -->
-    link(rel="stylesheet" type="text/css" href="bootstrap-material-design/dist/css/bootstrap-material-design.css")
-    link(rel="stylesheet" type="text/css" href="/bootstrap-material-design.css/dist/css/ripples.min.css")
+    link(rel="stylesheet" type="text/css" href="/bootstrap-material-design/dist/css/bootstrap-material-design.css")
+    link(rel="stylesheet" type="text/css" href="/bootstrap-material-design/dist/css/ripples.min.css")
 
   body
     .page-content
-      .navbar.navbar-inverse.navbar-fixed-top
+      .navbar.navbar-fixed-top
         .container
           .navbar-header
             a.navbar-brand(href='/') Branding
@@ -30,11 +30,14 @@ html
                 a(href="/home/") Home
               li
                 a(href="/sobre/") Sobre
+          form.navbar-form.navbar-left
+            .form-group
+              input(type="text" class="form-control col-sm-8" placeholder="Search")
 
       .container
         block content
 
-    footer.page-footer.footer.navbar-fixed-bottom
+    footer.page-footer.footer
       .container
         .row
           .col-xs-12
@@ -42,3 +45,5 @@ html
 
     script(src='/javascripts/jquery-3.1.0.min.js')
     script(src='/bootstrap/js/bootstrap.min.js')
+    script(src='/bootstrap-material-design/dist/js/material.min.js')
+    script(src='/bootstrap-material-design/dist/js/ripples.min.js')

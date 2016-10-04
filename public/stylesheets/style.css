@@ -1,6 +1,6 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
-  padding-top: 50px;
+  padding-top: 112px;
   padding-bottom: 20px;
 }
 
@@ -9,12 +9,16 @@ html, body, .page-content {
   height: 100%;
 }
 
+.page-content {
+  margin-bottom: -30px;
+}
+
 .navbar-fixed-top {
   margin-bottom: 0;
 }
 
 .page-footer {
   display: block;
-  padding: 20px;
+  padding: 5px;
   clear: both;
 }
