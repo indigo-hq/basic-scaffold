@@ -5,5 +5,6 @@ var ctrlStatic = require('../controllers/static');
 
 /* Home Page */
 router.get('/',ctrlStatic.home);
+router.get('/sobre',ctrlStatic.sobre);
 
 module.exports = router;
